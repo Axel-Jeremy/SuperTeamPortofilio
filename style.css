@@ -13,7 +13,7 @@ body{
 button{
     width: 120px;
     height: 120px;
-    margin: 0px 20px 0px 20px;
+    /* margin: 0px 20px 0px 20px; */
     border: 3px solid black;
     border-radius: 15px;
     background-color: aliceblue;
@@ -24,4 +24,11 @@ button{
 button:active {
   background-color: #bad7f7;
   transform: translateY(2px);
+}
+
+a{
+    display: inline;
+    padding: 0;
+    margin: 25px;
+    text-decoration: none;
 }
